@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: rgb(255, 240, 215);
+}
+.container {
+    background-color: rgb(241, 226, 231);
+    border: 10px solid rgb(82, 53, 92);
+    border-radius: 40px;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    font-size: 35px;
+    color: rgb(82, 53, 92);
+}
+h3 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#instruction {
+    color: rgb(82, 53, 92);
+    padding: 5px;
+    font-size: 35px;
+}
+
+#guess {
+    width: 240px;
+    height: 30px;
+    margin-top: 20px;
+    background: transparent;
+    border: 10px;
+    border-radius: 3px;
+    font-size: 25px;
+    color: #37263a;
+    border-bottom: 2px solid #785d81;
+}
+
+#button {
+    width: 140px;
+    height: 35px;
+    color: rgb(82, 53, 92);
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: #eed3ed;
+    border-radius: 45px;
+    border-color: #785d81;
+    cursor: pointer;
+}
+
+
+#button:hover {
+    background-color: rgb(255, 243, 228);
+}
+
+.result {
+    color: rgb(82, 53, 92);
+    font-size: 20px;
+    padding-top: 20px;
+}
